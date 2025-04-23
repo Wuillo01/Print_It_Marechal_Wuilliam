@@ -114,7 +114,7 @@ function goToPreviousSlide() {
 function resetAllDots() {
 
 	//Sélectionne tous les éléments enfants de divDots qui ont la classe dot et forEach, parcourt chaque élément dot dans cette liste.
-	document.querySelectorAll('.fa-circle').forEach(dot => {
+	document.querySelectorAll('.dot_selected').forEach(dot => {
 
 		//Supprime la classe dot_selected de chaque dot. Ce qui a pour effet de désélectionner un point ou de réinitialiser leur style.
 		dot.classList.remove('dot_selected')
